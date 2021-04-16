@@ -5,6 +5,7 @@ function star(t)
     {
         console.log('*')
     }
+    console.log("\n")
 }
 star(5)
 
@@ -15,6 +16,7 @@ function number(m, n)
     {
         console.log(m);
     }
+    console.log("\n")
 }
 number(3, 8)
 
@@ -23,9 +25,11 @@ function prime(a,b)
 {
     for(; a<=b; a++)
     {
-        for(var ; ; i++)
+        for(var i=2; i*i<=a && parseInt(a/i)!=a/i; i++)
         {
+            console.log(a)
         }
     }
+    console.log("\n")
 }
 prime(3,15)
