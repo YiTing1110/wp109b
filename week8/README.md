@@ -1,21 +1,30 @@
 # week 8 homework
 
-**_Q1_**
+##### Q1
 
-**code**
+**_CODE_**
 
-function star(t)  
-{  
-    for(var i=0; i<t; i++)  
-    {  
-        console.log('*')  
-    }  
-    console.log("\n")  
-}  
-star(5)  
+        function star(t)
+        {
+            for(var i=0; i<t; i++)
+            {
+                console.log('*')
+            }
+            console.log("\n")
+        }  
+        star(5)  
 
-**input**
+**_INPUT_**
 
+        *
+        *
+        *
+        *
+        *
+
+---
+
+**_Q2_**
 
         function number(m, n)
         {
@@ -26,7 +35,4 @@ star(5)
             console.log("\n")
         }
         number(3, 8)
-
----
-
-**_Q2_**
+        
