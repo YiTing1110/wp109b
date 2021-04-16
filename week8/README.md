@@ -15,7 +15,7 @@ function star(t)
 star(5)  
 
 **input**
-*
+
 
         function number(m, n)
         {
