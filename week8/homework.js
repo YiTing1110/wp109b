@@ -1,5 +1,5 @@
 //01
-function star(t)
+/*function star(t)
 {
     for(var i=0; i<t; i++)
     {
@@ -18,16 +18,23 @@ function number(m, n)
     }
     console.log("\n")
 }
-number(3, 8)
+number(3, 8)*/
 
 //03
 function prime(a,b)
 {
     for(; a<=b; a++)
     {
-        for(var i=2; i*i<=a && parseInt(a/i)!=a/i; i++)
+        for(var i=2; i<a; i++)
         {
-            console.log(a)
+            if(parseInt(a/i)==a/i)
+            {
+                break
+            }
+            else if(i==a-1)
+            {
+                console.log(a)                
+            }
         }
     }
     console.log("\n")
