@@ -16,6 +16,7 @@ star(5)
 
 **input**
 *
+
         function number(m, n)
         {
             for(; m<=n; m++)
@@ -26,6 +27,6 @@ star(5)
         }
         number(3, 8)
 
---
+---
 
 **_Q2_**
