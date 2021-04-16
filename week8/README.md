@@ -1,8 +1,8 @@
 # week 8 homework
 
-## Q1
+**_Q1_**
 
-**程式碼**
+**code**
 
 function star(t)  
 {  
@@ -13,3 +13,19 @@ function star(t)
     console.log("\n")  
 }  
 star(5)  
+
+**input**
+*
+        function number(m, n)
+        {
+            for(; m<=n; m++)
+            {
+                console.log(m);
+            }
+            console.log("\n")
+        }
+        number(3, 8)
+
+--
+
+**_Q2_**
