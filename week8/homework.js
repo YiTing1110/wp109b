@@ -1,5 +1,5 @@
 //01
-/*function star(t)
+function star(t)
 {
     for(var i=0; i<t; i++)
     {
@@ -18,7 +18,7 @@ function number(m, n)
     }
     console.log("\n")
 }
-number(3, 8)*/
+number(3, 8)
 
 //03
 function prime(a,b)
