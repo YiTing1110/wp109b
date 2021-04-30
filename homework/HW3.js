@@ -31,7 +31,7 @@ class Vector
         }
         return new Vector(r)
     }
-    neg(y)
+    neg()
     {
         var r = []
         for(var i = 0; i < this.a.length; i++)
@@ -52,4 +52,6 @@ console.log('x.sub(y)=', x.sub(y))
 
 console.log('x.dot(y)=', x.dot(y))
 
-console.log('x.neg(y)=', x.neg(y))
+console.log('x.neg()=', x.neg())
+
+console.log('y.neg()=', y.neg())

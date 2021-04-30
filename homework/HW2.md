@@ -28,24 +28,24 @@
 
 **_CODE_**
 
-        function number(m, n)
+    function number(m, n)
+    {
+        for(; m<=n; m++)
         {
-            for(; m<=n; m++)
-            {
-                console.log(m);
-            }
-            console.log("\n")
+            console.log(m);
         }
-        number(3, 8)
+        console.log("\n")
+    }
+    number(3, 8)
 
 **_INPUT_**
 
-        3
-        4
-        5
-        6
-        7
-        8
+    3
+    4
+    5
+    6
+    7
+    8
 
 ---
 
@@ -53,30 +53,30 @@
 
 **_CODE_**
 
-        function prime(a,b)
+    function prime(a,b)
+    {
+        for(; a<=b; a++)
         {
-            for(; a<=b; a++)
+            for(var i=2; i<a; i++)
             {
-                for(var i=2; i<a; i++)
+                if(parseInt(a/i)==a/i)
                 {
-                    if(parseInt(a/i)==a/i)
-                    {
-                        break
-                    }
-                    else if(i==a-1)
-                    {
-                        console.log(a)                
-                    }
+                    break
+                }
+                else if(i==a-1)
+                {
+                    console.log(a)                
                 }
             }
-            console.log("\n")
         }
-        prime(3,15)
+        console.log("\n")
+    }
+    prime(3,15)
 
 **_INPUT_**
 
-        3
-        5
-        7
-        11
-        13
+    3
+    5
+    7
+    11
+    13
