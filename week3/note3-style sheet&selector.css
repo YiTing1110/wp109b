@@ -1,0 +1,17 @@
+/*外部样式表(External style sheet)*/
+#idName
+{
+    color: #ff0;
+}
+.className
+{
+    text-align: right;
+}
+.className2
+{
+    font-size: 200%;
+}
+p.className
+{
+    border: solid 10px pink;
+}

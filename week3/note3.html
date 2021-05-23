@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <style>
+            *
+            {
+                font-size: larger;
+            }
+            #dotted
+            {
+                border-style: dotted;
+                border-width: medium;
+            }
+            #dashed
+            {
+                border-style: dashed;
+                border-width: thick;
+            }
+            #solid
+            {
+                border-style: solid;
+                border-width: thin;
+            }
+            #double
+            {
+                border-style: double;
+                border-width: 20px;
+                outline-style: dashed;
+            }
+            #groove
+            {
+                border-style: groove;
+                border-color: red;
+            }
+            #ridge
+            {
+                border-style: ridge;
+                margin: 100px;
+            }
+            #inset
+            {
+                border-style: inset;
+                padding: 30px;
+            }
+            #outset
+            {
+                border-style: outset;
+                margin: 0 0 100px 0;
+            }
+            #none
+            {
+                border-style: none;
+                margin: 100px 0 0 0;
+            }
+            #hidden
+            {
+                border-style: hidden;
+            }
+            #mix1
+            {
+                border-style: dotted dashed solid double;
+                height: 100px;
+                width: 1000px;
+            }
+            #mix2
+            {
+                border-top: dotted;
+                border-right: dashed;
+                border-bottom: solid;
+                border-left: double;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <p style="border: 5px solid;">5px solid thick border</p>
+        <p id="dotted">dotted medium</p>
+        <p id="dashed">dashed thick</p>
+        <p id="solid">solid thin</p>
+        <p id="double">border:double 20px; outline-style:dashed</p>
+        <p id="groove">groove red</p>
+        <p id="ridge">border:ridge; margin:100px.</p>
+        <p id="inset">border:inset; padding:30px</p>
+        <p id="outset">outset border.</p>
+        <p id="none">none border.</p>
+        <p id="hidden">hidden border.</p>
+        <p id="mix1">上dotted 右dashed 下solid 左double border; height:100px; width: 1000px;</p>
+        <p id="mix2">上dotted 右dashed 下solid 左double border.</p>
+
+        <hr/>
+
+        <P style="text-decoration: overline;">text-decoration: overline</P>
+        <p style="text-decoration: line-through;">text-decoration: line-through</p>
+        <p style="text-decoration: underline;">text-decoration: underline</p>
+
+        <hr/>
+
+        <p style="text-transform: none;">TEXT-transform: none</p>
+        <p style="text-transform: lowercase;">TEXT-transform: lowercase</p>
+        <p style="text-transform: uppercase;">TEXT-transform: uppercase</p>
+        <p style="text-transform: capitalize;">TEXT-transform: capitalize</p>
+
+        <hr/>
+
+        <p style="text-indent: 100px;">text-indent: 100px</p>
+
+        <hr/>
+
+        <p style="letter-spacing: 5px;">letter-spacing: 5px</p>
+        <p style="letter-spacing: -5px;">letter-spacing: -5px</p>
+
+        <hr/>
+
+        <p style="text-shadow: 30px 30px 30px blue;">text-shadow: 30px 30px 30px blue</p>
+        <p style="text-shadow: 10px 10px 5px;">text-shadow: 10px 10px 5px</p>
+        <p style="text-shadow: 10px 10px blue;">text-shadow: 10px 10px blue</p>
+        <p style="text-shadow: 0px 0px 30px blue;">text-shadow: 0px 0px 30px blue</p>
+        <p style="text-shadow: 10px 10px;">text-shadow: 10px 10px</p>
+        <p style="text-shadow: 10px 0px;">text-shadow: 10px 0px</p>
+        <p style="text-shadow: 0px 10px;">text-shadow: 0px 10px</p>
+    </body>
+</html>

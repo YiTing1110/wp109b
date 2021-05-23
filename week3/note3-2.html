@@ -1,0 +1,244 @@
+<html>
+    <head>
+        <style>
+            /*unvisited*/
+            a:link
+            {
+                color: red;
+                background-color: #0ff;
+            }
+            /*visited*/
+            a:visited
+            {
+                color: green;
+                background-color: #999;
+            }
+            /*mouse over*/
+            a:hover
+            {
+                color: #f0f;
+                background-color: black;
+            }
+            /*selected*/
+            a:active
+            {
+                color: blue;
+                background-color: yellow;
+            }
+
+            .relative
+            {
+                position: relative;
+            }
+            #left
+            {
+                left: 40px;
+            }
+            #right
+            {
+                right: 40px;
+            }
+            #top
+            {
+                top: 15px;
+            }
+            #fixed
+            {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                font-size: 20px;
+            }
+            #absolute1
+            {
+                position: absolute;
+                top: 250px;
+                right: 500px;
+                width: 500px;
+                height: 250px;
+                border: solid;
+            }
+            #absolute2
+            {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+            }
+            #sticky1
+            {
+                position: sticky;
+                top: 0;
+                border: solid;
+            }
+            #sticky2
+            {
+                position: sticky;
+                top: 0;
+                border: solid;
+            }
+
+            #unorder1
+            {
+                list-style-type: circle;
+            }
+            #unorder2
+            {
+                list-style-type: square;
+            }
+            #order1
+            {
+                list-style-type: upper-roman;
+            }
+            #order2
+            {
+                list-style-type: lower-roman;
+            }
+            #order3
+            {
+                list-style-type: lower-greek;
+            }
+            #listImage
+            {
+                list-style-image: url("../picture/RGBA.png");
+            }
+            #inline li
+            {
+                display: inline;
+            }
+
+            table, th, td
+            {
+                border: 1px solid blue;
+            }
+            #table1
+            {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            #max
+            {
+                border: solid;
+                right: 1000px;
+                max-width: 1250px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="note3.html" target="_blank">unvisited red; visited green; over link #f0f; selected blue</a>
+
+        <p class="relative" id="left">position:relative; left:40px</p>
+        <p class="relative" id="top">position:relative; top:15px</p>
+        <p class="relative" id="right">position:relative; right:40px</p>
+        <p id="fixed">position:fixed; bottom:10px; right:10px</p>
+        <div id="absolute1">
+            <p>position:absolute; top:250px; right:500px</p>
+            <div id="absolute2">
+                <p>div position:absolute; bottom:10px; right:10px</p>
+            </div>
+        </div>
+        <p id="sticky1">position:sticky; top:0</p>
+        <p id="sticky2">position:sticky; top:0</p>
+
+        <ul>
+            <li>unorder; display:inline</li>
+            <li>unorder; display:inline</li>
+            <li>unorder; display:inline</li>
+        </ul>
+
+        <ul id="unorder1">
+            <li>unorder circle</li>
+            <li>unorder circle</li>
+            <li>unorder circle</li>
+        </ul>
+
+        <ul id="unorder2">
+            <li>unorder circle</li>
+            <li>unorder circle</li>
+            <li>unorder circle</li>
+        </ul>
+
+        <ol>
+            <li>order</li>
+            <li>order</li>
+            <li>order</li>
+        </ol>
+
+        <ol id="order1">
+            <li>order upper-roman(大寫羅馬字)</li>
+            <li>order upper-roman(大寫羅馬字)</li>
+            <li>order upper-roman(大寫羅馬字)</li>
+        </ol>
+
+        <ol id="order2">
+            <li>order lower-roman(小寫羅馬字)</li>
+            <li>order lower-roman(小寫羅馬字)</li>
+            <li>order lower-roman(小寫羅馬字)</li>
+        </ol>
+
+        <ol id="order3">
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+            <li>order lower-greek(希臘字)</li>
+        </ol>
+
+        <ul id="listImage">
+            <li>list-image</li>
+            <li>list-image</li>
+            <li>list-image</li>
+        </ul>
+
+        <ul id="inline">
+            <li>unorder; display:inline</li>
+            <li>unorder; display:inline</li>
+            <li>unorder; display:inline</li>
+        </ul>
+
+        <table>
+            <tr> <!--table row-->
+                <th>標題一 table header</th>
+                <th>標題二 table header</th>
+                <th>標題三 table header</th>
+            </tr>
+            <tr>
+                <td>table data/cell 1*1</td>
+                <td>table data/cell 1*2</td>
+                <td>table data/cell 1*3</td>
+            </tr>
+            <tr>
+                <td>table data/cell 2*1</td>
+                <td>table data/cell 2*2</td>
+                <td>table data/cell 2*3</td>
+            </tr>              
+        </table>
+        <br/>
+        <table id="table1">
+            <tr> <!--table row-->
+                <th>標題一 table header</th>
+                <th>標題二 table header</th>
+                <th>標題三 table header</th>
+            </tr>
+            <tr>
+                <td>table data/cell 1*1</td>
+                <td>table data/cell 1*2</td>
+                <td>table data/cell 1*3</td>
+            </tr>
+            <tr>
+                <td>table data/cell 2*1</td>
+                <td>table data/cell 2*2</td>
+                <td>table data/cell 2*3</td>
+            </tr>              
+        </table>
+
+        <p id="max">border:solid; border-right:1000px; max-width:1250px;</p>
+
+    </body>
+</html>

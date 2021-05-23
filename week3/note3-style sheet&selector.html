@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="note3-style.css">
+        <!--外部样式表(External style sheet)-->
+        <style>
+            /*内部样式表(Internal style sheet)*/
+            *
+            {
+                color: #F00;
+            }
+            body
+            {
+                background-color: cadetblue;
+                background-image: url(../picture/style\ sheet.png);
+                background-repeat: no-repeat;
+            }
+            h1
+            {
+                text-align: center;
+            }
+            p, h1
+            {
+                font-family: 'Courier New', Courier, monospace;
+            }
+            div
+            {
+                background-color: lightpink;
+            }
+            div p
+            {
+                color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="border: double;">内聯樣式(Inline style) h1 border:double； text-align:center； font-family:'Courier New',Courier,monospace; color:#F00</h1>
+        <h2 class="className">h2 text-align: right</h2>
+        <p id="idName" class="className className2">color:#ff0; font-family; 'Courier New',Courier,monospace; text-align:right; font-size:200%; border:solid,10px,pink</p>
+        <p>font-family:'Courier New',Courier,monospace</p>
+        <div>
+            <h1>div background-color: lightpink</h1>
+            div background-color: lightpink
+            <p>div background-color: lightpink; color: lime</p>
+            <p>div background-color: lightpink; color: lime</p>
+        </div>
+    </body>
+</html>

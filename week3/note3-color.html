@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            p
+            {
+                font-size: 40px;
+                background-color: #ff0;
+            }
+            #rgba1
+            {
+                background-color: rgba(255, 255, 0, 0.25);
+            }
+            #rgba2
+            {
+                background-color: rgba(100%, 100%, 0%, 0.75);
+            }
+            #hsla1
+            {
+                background-color: hsla(60, 100%, 50%, 1);
+                /*H = hue(色相) : 0(R) ~ 120(G) ~ 240(B) ~ 360(R),
+                  S = saturation(飽合度) : 100% ~ 0%(灰色調)
+                  L = lightness(亮度) : 0%(black) ~ 50%(normal) ~ 100%(white)
+                  A = alpha(透明度) = opacity : 0(透明) ~ 1(不透明)*/
+            }
+            #hsla2
+            {
+                background-color: hsla(60, 0%, 50%, 1);
+            }
+            #hsla3
+            {
+                background-color: hsla(60, 100%, 0%, 1);
+            }
+            #hsla4
+            {
+                background-color: hsla(60, 100%, 100%, 1);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="rgba1">rgba(255, 255, 0, 0.25)</h1>
+        <h1 id="rgba2">rgba(100%, 100%, 0%, 0.75)</h1>
+
+        <h1 id="hsla1">hsla(60, 100%, 50%, 1)</h1>
+        <h1 id="hsla2">hsla(60, 0%, 50%, 1);</h1>
+        <h1 id="hsla3">hsla(60, 100%, 0%, 1);</h1>
+        <h1 id="hsla4">hsla(60, 100%, 100%, 1);</h1>
+
+        <p style="opacity: 0.25;">#ff0 opacity: 0.25</p>
+        <p style="opacity: 0.5;">#ff0 opacity: 0.5</p>
+        <p style="opacity: 0.75;">#ff0 opacity: 0.75</p>
+        <p style="opacity: 1;">#ff0 opacity: 1</p>
+        <p style="opacity: 100%">#ff0 opacity: 100%</p>
+    </body>
+</html>
