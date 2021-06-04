@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            div
+            {
+                color: blue;
+            }
+            div p
+            {
+                font-size: 25px;
+            }
+            div > p
+            {
+                background-color: darkorange;
+            }
+            div + h1
+            {
+                border: solid black 10px;
+            }
+            div ~ h1
+            {
+                outline: dashed 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <pre>
+            div
+            {
+                color: blue;
+            }
+            div p
+            {
+                background-color: darkorange;
+            }
+            div > p
+            {
+                font-size: 30px;
+            }
+            div + h1
+            {
+                border: solid black 10px;
+            }
+            div ~ h1
+            {
+                outline: dashed 5px;
+            }
+        </pre>
+        <hr/>
+        <div>
+            <h1>div > h1</h1>
+            <p>div > p</p>
+            <section>
+                <p>div > section > p</p>
+            </section>
+            <h1>div > h1</h1>
+            <div>
+                <h1>div > div > h1</h1>
+                <p>div > div > p</p>
+                <section>
+                    <p>div > div > section > p</p>
+                </section>
+            </div>
+            <h1>div > h1</h1>
+        </div>
+        <h1>h1</h1>
+        <h1>h1</h1>
+        <p>p</p>
+    </body>
+</html>
