@@ -3,7 +3,7 @@
         <style>
             img
             {
-                width: 40%;
+                width: 30%;
             }
             #floatR
             {
@@ -27,6 +27,65 @@
                 float: right;
                 padding: 0.5cm;
             }
+            #clear
+            {
+                clear: left;
+            }
+            #visible
+            {
+                overflow: visible;
+                border: solid;
+                width: 150px;
+                height: 50px;
+            }
+            #hidden
+            {
+                overflow: hidden;
+                border: solid;
+                width: 150px;
+                height: 50px;
+            }
+            #scroll
+            {
+                overflow: scroll;
+                border: solid;
+                width: 150px;
+                height: 50px;
+            }
+            #auto1
+            {
+                overflow: auto;
+                border: solid;
+                width: 150px;
+                height: 50px;
+            }
+            #auto2
+            {
+                overflow: auto;
+                border: solid;
+                width: 150px;
+                height: 100px;
+            }
+            #mix
+            {
+                overflow-x: visible;
+                overflow-y: scroll;
+                border: solid;
+                width: 150px;
+                height: 50px;
+            }
+            .Image
+            {
+                float: right;
+            }
+            .text
+            {
+                border: solid;
+            }
+            #autoImage
+            {
+                overflow: auto;
+            }
         </style>
     </head>
     <body>
@@ -49,11 +108,12 @@
          id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR"
          id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR"
          id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR" id="floatR"
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;</p>
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;</p>
 
          <p><img id="floatL" src="../picture/box model 1.png">
          float: left; float: left; float: left; float: left; float: left; float: left; float: left; float: left; float: left; float: left;
@@ -74,28 +134,30 @@
          id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL"
          id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL"
          id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL"
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;</p>
+         id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL"
+         id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL" id="floatL"
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;</p>
 
         <p><img id="floatN" src="../picture/box model 2.png">
          float: none;float: none;float: none;float: none;float: none; float: none;float: none;float: none;float: none;float: none;
          float: none;float: none;float: none;float: none;float: none; float: none;float: none;float: none;float: none;float: none;
          float: none;float: none;float: none;float: none;float: none; float: none;float: none;float: none;float: none;float: none;
          float: none;float: none;float: none;float: none;float: none; float: none;float: none;float: none;float: none;float: none;
-         float: none;float: none;float: none;float: none;float: none; float: none;float: none;float: none;float: none;float: none;
          id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN"
          id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN"
          id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN"
          id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN"
-         id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN" id="floatN"
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;
-         width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%; width: 40%;</p>
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;
+         width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%; width: 30%;</p>
 
         <p class="floatL" style="background-color: #f00;">float: left;</p>
         <p class="floatL" style="background-color: #0f0;">float: left;</p>
@@ -104,5 +166,76 @@
         <p class="floatR" style="background-color: #0ff;">float: right</p>
         <p class="floatR" style="background-color: #f0f;">float: right</p>
         <p class="floatR" style="background-color: #ff0;">float: right</p>
+
+        <br/>
+
+        <div>
+            no clear no clear no clear no clear no clear no clear no clear no clear no clear no clear 
+            no clear no clear no clear no clear no clear no clear no clear no clear no clear no clear
+        </div>
+        <div id="clear">
+            clear clear clear clear clear clear clear clear clear clear clear clear clear clear clear 
+            clear clear clear clear clear clear clear clear clear clear clear clear clear clear clear 
+            clear clear clear clear clear clear clear clear clear clear clear clear clear clear clear
+        </div>
+
+        <br/>
+
+        <div id="visible">
+            id="visible"; overflow: visible; border: solid; width: 150px; height: 50px;
+        </div>
+
+        <br/><br/><br/>
+
+        <div id="hidden">
+            id="hidden"; overflow: hidden; border: solid; width: 150px; height: 50px;
+        </div>
+        
+        <br/><br/><br/>
+
+        <div id="scroll">
+            id="scroll"; overflow: scroll; border: solid; width: 150px; height: 50px;
+        </div>
+
+        <br/><br/><br/>
+
+        <div id="auto1">
+            id="auto1"; overflow: auto; border: solid; width: 150px; height: 50px;
+        </div>
+
+        <br/><br/><br/>
+
+        <div id="auto2">
+            id="auto2"; overflow: auto; border: solid; width: 150px; height: 50px;
+        </div>
+
+        <br/><br/><br/>
+
+        <div id="mix">
+            <p>id="mix"</p>
+            <p>overflow-x: visible;</p>
+            <p>overflow-y: scroll;</p>
+            <p>border: solid;</p>
+            <p>width: 150px;</p>
+            <p>height: 50px;</p>
+        </div>
+
+        <br/><br/><br/>
+
+        <div class="text">
+            <img src="..\picture\box model 1.png" class="Image">
+            float: right float: right float: right float: right float: right float: right float: right float: right float: right float: right 
+            float: right float: right float: right float: right float: right border: solid border: solid border: solid border: solid border: solid 
+            border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid
+        </div>
+
+        <br/><br/><br/><br/><br/><br/><br/>
+
+        <div class="text" id="autoImage">
+            <img src="..\picture\box model 1.png" class="Image">
+            float: right float: right float: right float: right float: right float: right float: right float: right float: right float: right 
+            border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid 
+            overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto
+        </div>
     </body>
 </html>
