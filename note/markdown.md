@@ -1,4 +1,4 @@
-標題
+**_header_**
 
 # h1
 ## h2
@@ -26,7 +26,7 @@ h2
 ---
 ```
 
-段落
+**_paragraph_**
 
 段落以空行分隔
 
@@ -36,7 +36,7 @@ h2
 行末空兩格  
 斷行
 
-```
+```markdown
 段落以空行分隔
 
 行末空兩格
@@ -45,21 +45,67 @@ h2
 行末空兩格  
 斷行
 ```
+
+**_font family_**
 
 _斜體_  
 **粗體**  
 `等寬字體 monospaced`  
 
+```markdown
+_斜體_  
+**粗體**  
+`等寬字體 monospaced`  
+```
+
 > 引用文字
+
+```markdown
+> 引用文字
+```
 
 ---
 
-* 第一項
-* 第二項
-* 第三項
+**_list_**
 
-1. 第一項
-2. 第二項
-3. 第三項
+* First
+* Second
+* Third
+
+- First
+- Second
+    + subproject
+- Third
+
++ First
++ Second
++ Third
+    * subproject
+
+1. First
+    5. subproject
+3. Second
+4. Third
+
+```markdown
+* First
+* Second
+* Third
+
+- First
+- Second
+    + subproject
+- Third
+
++ First
++ Second
++ Third
+    * subproject
+
+1. First
+    5. subproject
+3. Second
+4. Third
+```
 
 [YiTing](https://github.com/YiTing1110)
