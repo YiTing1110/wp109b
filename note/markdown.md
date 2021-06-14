@@ -82,10 +82,11 @@ _斜體_
 + Third
     * subproject
 
-1. First
-    5. subproject
+7. First
+    3. subproject
 3. Second
 4. Third
+    1. subproject
 
 ```markdown
 * First
@@ -102,7 +103,7 @@ _斜體_
 + Third
     * subproject
 
-1. First
+7. First
     3. subproject
 3. Second
 4. Third
