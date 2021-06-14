@@ -5,6 +5,7 @@
             {
                 width: 30%;
             }
+
             #floatR
             {
                 float: right;
@@ -27,10 +28,12 @@
                 float: right;
                 padding: 0.5cm;
             }
+
             #clear
             {
                 clear: left;
             }
+
             #visible
             {
                 overflow: visible;
@@ -74,6 +77,7 @@
                 width: 150px;
                 height: 50px;
             }
+
             .Image
             {
                 float: right;
@@ -85,6 +89,60 @@
             #autoImage
             {
                 overflow: auto;
+            }
+
+            span
+            {
+                border: solid 3px;
+                width: 300px;
+                height: 50px;
+            }
+            .inline
+            {
+                display: inline;
+            }
+            .inline-block
+            {
+                display: inline-block;
+            }
+            .block
+            {
+                display: block;
+            }
+
+            #hover1:hover
+            {
+                color: #f00;
+            }
+            #hover2-1
+            {
+                display: none;
+            }
+            #hover2-2:hover span
+            {
+                display: inline;
+                background-color: #ff0;
+            }
+            #hover3:hover
+            {
+                opacity: 75%;
+            }
+
+            #background1
+            {
+                background: url(../picture/RGBA.png) repeat;
+                border: solid;
+            }
+            #background2
+            {
+                margin: 50px;
+                border: solid;
+                background-color: #fff;
+                opacity: 0.5;
+            }
+            #background2 p
+            {
+                margin: 25px;
             }
         </style>
     </head>
@@ -236,6 +294,63 @@
             float: right float: right float: right float: right float: right float: right float: right float: right float: right float: right 
             border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid border: solid 
             overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto overflow: auto
+        </div>
+
+        <br/><br/><br/>
+
+        <div>
+            display: inline display: inline display: inline display: inline display: inline 
+            display: inline display: inline display: inline display: inline display: inline 
+            display: inline display: inline display: inline display: inline display: inline 
+            display: inline display: inline display: inline display: inline display: inline 
+            <span class="inline">width: 300px; height: 50px;</span> <span class="inline">width: 300px; height: 50px;</span> 
+            display: inline display: inline display: inline display: inline display: inline 
+            display: inline display: inline display: inline display: inline display: inline 
+            display: inline display: inline display: inline display: inline display: inline 
+            display: inline display: inline display: inline display: inline display: inline
+        </div>
+
+        <br/><br/><br/>
+
+        <div>
+            display: inline-block display: inline-block display: inline-block display: inline-block display: inline-block 
+            display: inline-block display: inline-block display: inline-block display: inline-block display: inline-block 
+            display: inline-block display: inline-block display: inline-block display: inline-block display: inline-block 
+            <span class="inline-block">width: 300px; height: 50px;</span> <span class="inline-block">width: 300px; height: 50px;</span> 
+            display: inline-block display: inline-block display: inline-block display: inline-block display: inline-block 
+            display: inline-block display: inline-block display: inline-block display: inline-block display: inline-block 
+            display: inline-block display: inline-block display: inline-block display: inline-block display: inline-block
+        </div>
+
+        <br/><br/><br/>
+
+        <div>
+            display: block display: block display: block display: block display: block 
+            display: block display: block display: block display: block display: block 
+            display: block display: block display: block display: block display: block 
+            display: block display: block display: block display: block display: block 
+            display: block display: block display: block display: block display: block 
+            <span class="block">width: 300px; height: 50px;</span> <span class="block">width: 300px; height: 50px;</span> 
+            display: block display: block display: block display: block display: block 
+            display: block display: block display: block display: block display: block 
+            display: block display: block display: block display: block display: block 
+        </div>
+
+        <p id="hover1">hover (滑鼠移至此處)</p>
+        
+        <p id="hover2-2">no hover - display: none; <span id="hover2-1">hover - display: inline; background-color: #ff0; border: solid 3px; width: 300px; height: 50px;</span> ((滑鼠移至此處))</p>
+
+        <p>hover + opacity75% (滑鼠移至圖片處)</p>
+        <img id="hover3" src="../picture/box model 1.png">
+
+        <br/>
+        
+        <div id="background1">
+            <div id="background2">
+                <p>outsude background: url(../picture/RGBA.png) repeat;</p>
+                <p>inside background: opacity: 0.5; margin: 50px;</p>
+                <p>p: margin: 25px;</p>
+            </div>
         </div>
     </body>
 </html>

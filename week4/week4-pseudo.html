@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            /*pseudo-class ":"*/
+            p:first-child
+            {
+                color: blue;
+            }
+            p i:first-child
+            {
+                font-size: 25px;
+            }
+            q:lang(no)
+            {
+                quotes: "~" "~";
+                border: solid 1px;
+            }
+
+            /*psuedo-element "::"*/
+            p::first-letter
+            {
+                font-size: xx-large;
+            }
+            p::first-line
+            {
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <p>p first-letter - font-size: xx-large; p first child <i>"first child i in p"</i> p first child <i>"not first child i in p"</i> p first child <q lang="no"> q:lang(no) quotes: "~" "~"; </q> 
+           p first child p first child p first child p first child p first child p first child p first child p first child p first child p first child 
+           p first child p first child p first child p first child p first child p first child p first child p first child p first child p first child </p>
+        <p>p first-letter - font-size: xx-large; not p first child <i>first child i in p</i> not p first child <i>not first child i in p</i> not p first child <q lang="no"> q:lang(no) quotes: "~" "~"; </q> 
+            not p first child not p first child not first child not first child not first child not first child not first child 
+            not first child not first child not first child not first child not first child not first child not first child </p>
+        <p></p>
+    </body>
+</html>
