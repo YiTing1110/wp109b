@@ -49,14 +49,22 @@ h2
 **_font family_**
 
 _斜體_  
+*斜體_*  
+__粗體__  
 **粗體**  
+**_粗斜體_**  
 `等寬字體 monospaced`  
 
 ```markdown
 _斜體_  
+*斜體_*  
+__粗體__  
 **粗體**  
+**_粗斜體_**  
 `等寬字體 monospaced`  
 ```
+
+**_引用_**
 
 > 引用文字
 
@@ -64,7 +72,16 @@ _斜體_
 > 引用文字
 ```
 
+**_分隔線_**
+
 ---
+***
+
+```markdown
+---
+***
+```
+
 
 **_list_**
 
@@ -106,10 +123,30 @@ _斜體_
     * subproject
 
 7. First
-    3. subproject
+    1. subproject
 3. Second
 4. Third
     1. subproject
+    2. subproject
+    1. subproject
 ```
 
-[YiTing](https://github.com/YiTing1110)
+**_link_**
+
+[張貽婷](https://github.com/YiTing1110/wp109b.wiki.git)
+
+```markdown
+[張貽婷](https://github.com/YiTing1110/wp109b.wiki.git)
+```
+
+**_table_**
+
+| th 1 | th 2 | th 3 |     th 4 |
+|------|      |------|----------|
+| td   | td     td   |    td    |
+
+```
+| th 1 | th 2 | th 3 |     th 4 |
+|------|      |------|----------|
+| td   | td     td   |    td    |
+```
